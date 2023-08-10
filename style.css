@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import url("/Users/helen/Library/Fonts/Kiona-Regular.ttf");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --cor-principal: #D37185;
+    --cor-secundaria: #B04F6A;
+    --cor-apoio: #CD9E25;
+    --cor-base: #F8F8F8;
+    --cor-padrao: #44433F;
+
+    --font-destaque: 'Poppins', sans-serif;
+    --font-corpo: kiona-regular;
+}
+
+/* versao mobile 360px a 812px */
+
+@media screen and (min-width: 360px) and (max-width: 812px) {
+    body{
+        background-image: url("assets/background2.jpg");
+        background-size: cover;
+    }
+    
+    h2{
+        color: var(--cor-secundaria);
+        font-family: var(--font-destaque);
+        text-align: center;
+        font-size: 16px;
+        padding: 15px; 
+        
+    }
+
+    main{
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        background-color: var(--cor-base);
+        width: 80vw;
+        height: 90vh;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .logo {
+        width: 250px;
+        height:260px;
+    }
+    .container {
+        display: block;
+        position: relative;
+    }
+
+    .tratamentos {
+        height: 80px;
+        background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
+        linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
+        border-radius: 10px;
+        border: 2px solid transparent;
+        margin-top: 10px;
+        display: block;
+        
+        
+    }
+
+    .valores {
+        height: 80px;
+        background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
+        linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
+        border-radius: 10px;
+        border: 2px solid transparent;
+        margin-top: 10px;
+        
+    }
+
+    .marcacoes {
+        height: 80px;
+        background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
+        linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
+        border-radius: 10px;
+        border: 2px solid transparent;
+        margin-top: 10px;
+       
+    }
+}
+
+
+/*
+.logo{ 
+    height: 100px;
+    width: 200px;
+    padding: 30px 10px 10px 50px;
+    float: left;
+
+}
+
+h2 {
+    font-family: var(--font-destaque);
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    color:  var(--cor-secundaria);
+}
+
+.faciais {
+    width: 250px;
+    height: 300px;
+    border: var(--cor-secundaria) solid 1px;
+    border-radius: 10px;
+    transform: translate(10%, -20%);
+    top: 10%;
+    left: 16%;
+    position: absolute;
+}
+
+.corporais {
+    width: 250px;
+    height: 300px;
+    border: var(--cor-secundaria) solid 1px;
+    border-radius: 10px;
+    transform: translate(20%, -20%);
+    top: 10%;
+    left: 40%;
+    position: absolute;
+}
+
+.valores {
+    width: 250px;
+    height: 300px;
+    border: var(--cor-secundaria) solid 1px;
+    border-radius: 10px;
+    transform: translate(30%, -20%);
+    top: 10%;
+    left: 63%;
+    position: absolute;
+}
+*/
