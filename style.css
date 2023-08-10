@@ -86,54 +86,10 @@
     }
 }
 
+/* versao desktop 812 px a 1080px */
 
-/*
-.logo{ 
-    height: 100px;
-    width: 200px;
-    padding: 30px 10px 10px 50px;
-    float: left;
+@media screen and(min-width: 812px) and(max-width: 1080px) {
+
 
 }
-
-h2 {
-    font-family: var(--font-destaque);
-    text-align: center;
-    font-size: 18px;
-    padding: 15px;
-    color:  var(--cor-secundaria);
-}
-
-.faciais {
-    width: 250px;
-    height: 300px;
-    border: var(--cor-secundaria) solid 1px;
-    border-radius: 10px;
-    transform: translate(10%, -20%);
-    top: 10%;
-    left: 16%;
-    position: absolute;
-}
-
-.corporais {
-    width: 250px;
-    height: 300px;
-    border: var(--cor-secundaria) solid 1px;
-    border-radius: 10px;
-    transform: translate(20%, -20%);
-    top: 10%;
-    left: 40%;
-    position: absolute;
-}
-
-.valores {
-    width: 250px;
-    height: 300px;
-    border: var(--cor-secundaria) solid 1px;
-    border-radius: 10px;
-    transform: translate(30%, -20%);
-    top: 10%;
-    left: 63%;
-    position: absolute;
-}
-*/
+    
