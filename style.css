@@ -13,6 +13,12 @@
     --font-corpo: kiona-regular;
 }
 
+@media all {
+    *{
+        box-sizing: border-box;
+    }
+}
+
 /* versao mobile 360px a 812px */
 
 @media screen and (min-width: 360px) and (max-width: 812px) {
@@ -48,7 +54,7 @@
         height:260px;
     }
 
-    .container {
+    .flex-container {
         display: block;
         position: relative;
     }
@@ -111,62 +117,49 @@
         text-align: center;
         font-size: 18px;
         padding: 15px; 
+        
     }
 
     .logo {
-       
-        width: 450px;
-        height:460px;
+        width: 370px;
+        height:360px;
+        
     }
 
-    .container {
-        display: block;
-        position: relative;
+    .flex-container {
+        display: flex;
+        justify-content: space-evenly;
         
     }
 
     .tratamentos {
-        width: 550px;
-        height: 120px;
+        width: 25vw;
+        height: 23vh;
         background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
         linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
         border-radius: 10px;
         border: 2px solid transparent;
-        margin-top: -0.8px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-       
+        
     }
 
     .valores {
-        width: 550px;
-        height: 120px;
+        width: 25vw;
+        height: 23vh;
         background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
         linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
         border-radius: 10px;
         border: 2px solid transparent;
-        margin-top: 135px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-         
+        
     }
 
     .marcacoes {
-        width: 550px;
-        height: 120px;
+        width: 25vw;
+        height: 23vh;
         background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
         linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
         border-radius: 10px;
         border: 2px solid transparent;
-        margin-top: 270px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        
     }
 
 
