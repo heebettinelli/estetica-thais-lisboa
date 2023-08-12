@@ -60,6 +60,10 @@
     }
 
     .tratamentos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         height: 80px;
         background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
         linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
@@ -70,6 +74,10 @@
     }
 
     .valores {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         height: 80px;
         background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
         linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
@@ -79,6 +87,10 @@
     }
 
     .marcacoes {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         height: 80px;
         background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
         linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
@@ -89,6 +101,7 @@
 
     a {
         text-decoration: none;
+        text-align: center;
     }
    
 }
@@ -121,7 +134,7 @@
         font-family: var(--font-destaque);
         text-align: center;
         font-size: 18px;
-        padding: 15px; 
+        
         
     }
 
@@ -138,6 +151,10 @@
     }
 
     .tratamentos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         width: 25vw;
         height: 23vh;
         background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
@@ -148,6 +165,10 @@
     }
 
     .valores {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         width: 25vw;
         height: 23vh;
         background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
@@ -158,6 +179,10 @@
     }
 
     .marcacoes {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         width: 25vw;
         height: 23vh;
         background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
@@ -169,6 +194,8 @@
 
     a {
         text-decoration: none;
+        text-align: center;
+        
     }
 
 }
