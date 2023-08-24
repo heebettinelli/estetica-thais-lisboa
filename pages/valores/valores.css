@@ -1,1 +1,13 @@
 @charset "UTF-8";
+
+:root {
+    --cor-principal: #D37185;
+    --cor-secundaria: #B04F6A;
+    --cor-apoio: #CD9E25;
+    --cor-base: #F8F8F8;
+    --cor-padrao: #44433F;
+
+    --font-destaque: 'Poppins', sans-serif;
+    --font-corpo: kiona-regular;
+}
+
