@@ -22,9 +22,8 @@
 /* versao mobile 360px a 813px */
 @media screen and (min-width: 360px) and (max-width: 812px) {
     body{
-        background-image: url("../../assets/background2.jpg");
-        background-size: cover; 
-        /* trocar o cover por outra propriedade para arrumar a img de background */
+        background-image: url("../../assets/background4.png");
+        background-size: cover;
     }
 
     main {
