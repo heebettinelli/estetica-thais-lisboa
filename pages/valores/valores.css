@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url("/Users/helen/Library/Fonts/Kiona-Regular.ttf");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
     --cor-principal: #D37185;
@@ -9,5 +11,81 @@
 
     --font-destaque: 'Poppins', sans-serif;
     --font-corpo: kiona-regular;
+}
+
+@media all {
+    *{
+        box-sizing: border-box;
+    }
+}
+
+/* versao mobile 360px a 813px */
+
+@media screen and (min-width: 360px) and (max-width: 812px) {
+    body{
+        background-image: url("../../assets/background4.png");
+        background-size: cover no-repeat;
+    }
+
+    main{
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        background-color: var(--cor-base);
+        width: 80vw;
+        height: auto;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        
+    }
+
+    h1 {
+        color: var(--cor-secundaria);
+        font-family: var(--font-destaque);
+        text-align: center;
+        font-size: 28px;
+        padding: 20px 20px 30px 20px; 
+        margin: 0px;
+    }
+
+    table {
+        line-height: 25px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    th {
+        color: var(--cor-secundaria);
+        font-size: 18px;
+    }
+
+    
+
+    .iconback {
+        
+        display: flex;
+        justify-content: flex-start;
+        padding: 15px;
+    }
+
+    .cta {
+        background-color: var(--cor-base);
+        background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
+        linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
+        border-radius: 6px;
+        border: 2px solid transparent;
+        width: 40vw;
+        height: 5vh;
+        color: var(--cor-secundaria);
+        font-family: var(--font-destaque);
+        font-size: 14px;
+        text-align: center;
+        
+
+    }
 }
 
