@@ -14,10 +14,6 @@
     --font-corpo: kiona-regular;
 }
 
-@media all {
-    
-}
-
 
 /* versao mobile 360px a 813px */
 @media screen and (min-width: 360px) and (max-width: 812px) {
