@@ -21,21 +21,25 @@
     body{
         background-color: var(--cor-base);
     }
+
+    .tratamentos, .marcacoes{
+        color: var(--cor-secundaria);
+        font-family: var(--font-destaque);
+        text-align: center;
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    a {
+        text-decoration: none;
+        text-align: center;
+    }
 }
 
 /* versao mobile 360px a 813px */
 
 @media screen and (min-width: 360px) and (max-width: 812px) {
     
-    
-    h2{
-        color: var(--cor-secundaria);
-        font-family: var(--font-destaque);
-        text-align: center;
-        font-size: 16px;
-        padding: 15px; 
-    }
-
     main{
         margin: auto;
         text-align: center;
@@ -81,40 +85,18 @@
         margin-top: 10px;
         
     }
-
-    a {
-        text-decoration: none;
-        text-align: center;
-    }
-   
 }
 
 /* versao desktop 812 px a 1080px */
 
-@media screen and (min-width: 812px) and (max-width: 1950px) {
+@media screen and (min-width: 813px) and (max-width: 1950px) {
 
     main{
-        position: relative;
-        text-align: center;
-        padding: 10px;
         margin: auto;
-        background-color: var(--cor-base);
-        width: 80vw;
-        height: 90vh;
-        border-radius: 10px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    h2{
-        color: var(--cor-secundaria);
-        font-family: var(--font-destaque);
         text-align: center;
-        font-size: 18px;
-        
-        
+        padding: 15px;
+        width: 70vw;
+        height: 98vh;
     }
 
     .logo {
@@ -129,52 +111,32 @@
         
     }
 
-    .tratamentos {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        width: 25vw;
-        height: 23vh;
-        background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
-        linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
-        border-radius: 10px;
-        border: 2px solid transparent;
-        
-    }
-
-    .valores {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        width: 25vw;
-        height: 23vh;
-        background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
-        linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
-        border-radius: 10px;
-        border: 2px solid transparent;
-        
-    }
-
     .marcacoes {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        width: 25vw;
-        height: 23vh;
-        background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
+        width: 300px;
+        height: 80px;
+        background: linear-gradient(#FFFFFF, #FFFFFF) padding-box,
         linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
-        border-radius: 10px;
+        border-radius: 50px;
         border: 2px solid transparent;
-        
+        margin-top: 10px;
     }
 
-    a {
-        text-decoration: none;
-        text-align: center;
-        
+    .tratamentos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 80px;
+        background: linear-gradient(#FFFFFF, #FFFFFF) padding-box,
+        linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
+        border-radius: 50px;
+        border: 2px solid transparent;
+        margin-top: 10px;
     }
 
 }
