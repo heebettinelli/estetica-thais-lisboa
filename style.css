@@ -5,8 +5,8 @@
 :root {
     --cor-principal: #D37185;
     --cor-secundaria: #B04F6A;
-    --cor-apoio: #CD9E25;
-    --cor-base: #F8F8F8;
+    --cor-apoio: #FEF2F2;
+    --cor-base: #FFFFFF;
     --cor-padrao: #44433F;
 
     --font-destaque: 'Poppins', sans-serif;
@@ -17,15 +17,16 @@
     *{
         box-sizing: border-box;
     }
+
+    body{
+        background-color: var(--cor-base);
+    }
 }
 
 /* versao mobile 360px a 813px */
 
 @media screen and (min-width: 360px) and (max-width: 812px) {
-    body{
-        background-image: url("assets/background4.png");
-        background-size: cover;
-    }
+    
     
     h2{
         color: var(--cor-secundaria);
@@ -36,22 +37,16 @@
     }
 
     main{
-        text-align: center;
-        padding: 10px;
         margin: auto;
-        background-color: var(--cor-base);
-        width: 80vw;
-        height: 90vh;
-        border-radius: 10px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 15px;
+        width: 100vw;
+        height: 98vh;
     }
 
     .logo {
-        width: 250px;
-        height:260px;
+        width: 260px;
+        height:270px;
     }
 
     .flex-container {
@@ -65,25 +60,10 @@
         flex-direction: column;
         align-items: center;
         height: 80px;
-        background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
-        linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
-        border-radius: 10px;
-        border: 2px solid transparent;
+        background-color: var(--cor-apoio);
+        border-radius: 50px;
         margin-top: 10px;
         
-    }
-
-    .valores {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        height: 80px;
-        background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
-        linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
-        border-radius: 10px;
-        border: 2px solid transparent;
-        margin-top: 10px;
     }
 
     .marcacoes {
@@ -92,10 +72,8 @@
         flex-direction: column;
         align-items: center;
         height: 80px;
-        background: linear-gradient(#F8F8F8, #F8F8F8) padding-box,
-        linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
-        border-radius: 10px;
-        border: 2px solid transparent;
+        background-color: var(--cor-apoio);
+        border-radius: 50px;
         margin-top: 10px;
     }
 
@@ -109,10 +87,6 @@
 /* versao desktop 812 px a 1080px */
 
 @media screen and (min-width: 812px) and (max-width: 1950px) {
-    body{
-        background-image: url("assets/background2.jpg");
-        background-size: cover;
-    }
 
     main{
         position: relative;
