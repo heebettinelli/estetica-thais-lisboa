@@ -60,8 +60,10 @@
         flex-direction: column;
         align-items: center;
         height: 80px;
-        background-color: var(--cor-apoio);
+        background: linear-gradient(#FFFFFF, #FFFFFF) padding-box,
+        linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
         border-radius: 50px;
+        border: 2px solid transparent;
         margin-top: 10px;
         
     }
@@ -72,9 +74,12 @@
         flex-direction: column;
         align-items: center;
         height: 80px;
-        background-color: var(--cor-apoio);
+        background: linear-gradient(#FFFFFF, #FFFFFF) padding-box,
+        linear-gradient(to right, #d6bd89, #bfa370, #d6bd89, #bfa370) border-box;
         border-radius: 50px;
+        border: 2px solid transparent;
         margin-top: 10px;
+        
     }
 
     a {
