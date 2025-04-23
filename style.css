@@ -22,7 +22,7 @@
         background-color: var(--cor-base);
     }
 
-    .tratamentos, .marcacoes{
+    .duvidas, .marcacoes{
         color: var(--cor-secundaria);
         font-family: var(--font-destaque);
         text-align: center;
@@ -58,7 +58,7 @@
         position: relative;
     }
 
-    .tratamentos {
+    .duvidas {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -125,7 +125,7 @@
         margin-top: 10px;
     }
 
-    .tratamentos {
+    .duvidas {
         display: flex;
         justify-content: center;
         flex-direction: column;
